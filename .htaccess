@@ -1,0 +1,10 @@
+RewriteEngine On
+
+#Running currency
+RewriteRule ^running?$ runningcalls.php [NC,L]
+
+#Closed currency
+RewriteRule ^closed?$ closedcalls.php [NC,L]
+
+#History currency
+RewriteRule ^history?$ historycalls.php [NC,L]
